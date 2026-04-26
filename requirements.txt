@@ -1,0 +1,71 @@
+# ============================================================================
+# BIOMETRIC SYSTEM - COMBINED REQUIREMENTS
+# Real-Time Multi-Modal Face and Gait Recognition with Fusion
+# ============================================================================
+
+# ============================================================================
+# CORE SCIENTIFIC STACK
+# ============================================================================
+numpy>=1.26.4
+scipy>=1.11.4
+scikit-learn>=1.3.2
+
+# ============================================================================
+# DEEP LEARNING & INFERENCE
+# ============================================================================
+torch>=2.0.0              # PyTorch for gait models
+torchvision>=0.15.0       # Computer vision with PyTorch
+onnxruntime-gpu>=1.17.1   # GPU inference (requires CUDA 11.8+)
+onnx>=1.16.0              # ONNX model format
+insightface>=0.7.3        # Face recognition framework
+ultralytics>=8.4.14       # YOLOv8 for detection and tracking
+
+# ============================================================================
+# COMPUTER VISION
+# ============================================================================
+opencv-python-headless>=4.9.0  # Image processing (headless for servers)
+Pillow>=9.0.0            # Image manipulation
+
+# ============================================================================
+# WEB FRAMEWORKS & APIs
+# ============================================================================
+fastapi>=0.95.1          # REST API framework
+uvicorn[standard]>=0.22.0 # ASGI server
+nicegui>=1.4.0           # Web dashboard framework
+starlette>=0.29.1        # Web framework utilities
+
+# ============================================================================
+# DATABASES & DATA PROCESSING
+# ============================================================================
+psycopg2-binary>=2.9.0   # PostgreSQL driver
+asyncpg>=0.27.0          # Async PostgreSQL driver
+pydantic>=2.0.0          # Data validation
+
+# ============================================================================
+# ASYNC & NETWORKING
+# ============================================================================
+httpx>=0.24.0            # Async HTTP client
+aiohttp>=3.8.0           # Async HTTP framework
+python-dotenv>=0.19.0    # Environment variables
+
+# ============================================================================
+# CONFIGURATION & UTILITIES
+# ============================================================================
+PyYAML>=6.0              # YAML configuration files
+python-multipart>=0.0.6  # File uploads (if needed)
+
+# ============================================================================
+# DEVELOPMENT & TESTING (OPTIONAL)
+# ============================================================================
+# pytest>=7.0.0            # Testing framework
+# black>=22.0.0            # Code formatting
+# flake8>=4.0.0            # Linting
+
+# ============================================================================
+# SYSTEM REQUIREMENTS
+# ============================================================================
+# - Python 3.8+
+# - CUDA 11.x compatible GPU (recommended)
+# - PostgreSQL database
+# - Sufficient RAM (8GB+ recommended for GPU processing)</content>
+<parameter name="filePath">/home/hitanshu/Downloads/biometric_system/requirements.txt

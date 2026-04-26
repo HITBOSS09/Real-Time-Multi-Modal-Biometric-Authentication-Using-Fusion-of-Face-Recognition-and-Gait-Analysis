@@ -1,0 +1,11 @@
+# fusion configuration for the multimodal biometric system
+
+cameras:
+  face_cam: http://192.168.1.50:8080/video
+  gait_cam: http://192.168.1.51:8080/video
+
+fusion:
+  alpha: 0.65        # weight for face confidence in hybrid score
+  time_window: 5    # seconds allowed between face and gait timestamps
+  # optional path to gait sqlite database (relative to workspace root)
+  gait_db_path: "gait_service/multi_gait_system/database/gait.db"
