@@ -34,19 +34,56 @@ In an era of increasing security threats and privacy concerns, traditional singl
 
 ## 📸 Screenshots & Demo
 
-### System Dashboard
-![Dashboard Screenshot](screenshots/dashboard.png)
-*Real-time monitoring interface showing live camera feeds, recognition results, and system status.*
+---
 
-### Recognition in Action
-![Recognition Demo](screenshots/recognition_demo.gif)
-*Live demonstration of multi-person tracking and biometric identification.*
+## 📊 System Test Results
 
-### Architecture Diagram
-![System Architecture](screenshots/architecture.png)
-*High-level overview of the multi-modal fusion pipeline.*
+![Performance](assets/performance.png)
 
-*[Add your actual screenshots here - capture the dashboard, recognition results, and system in action]*
+---
+
+## 🎥 Recognition in Action
+
+### 🔹 Gait Recognition (Multi-Person Scenario)
+![Demo1](assets/demo1.gif)
+*Demonstration of gait-based recognition with multiple individuals. A registered person walking in the scene is successfully identified. Two unregistered individuals are either not detected due to minimal motion or are classified as "Unknown" when detected, showing the system’s handling of motion-based gait recognition.*
+
+### 🔹 Real-World Challenging Scenario
+![Demo2](assets/demo2.gif)
+*Testing on a random real-world video to evaluate system scalability and robustness. All individuals are unregistered and correctly classified as "Unknown", demonstrating the system’s ability to detect multiple people at varying distances while avoiding incorrect identification.*
+
+![Demo3](assets/demo3.gif)
+
+*Worst-case real-world scenario: Low lighting, outdoor environment, and partial occlusion. The system tracks multiple individuals simultaneously. Out of 3 people, 2 registered individuals are correctly identified, while 1 false negative (missed detection) and 1 false positive (incorrect match) are observed.*
+
+---
+
+## 👤 Face Recognition
+
+![Face](assets/face.png)
+
+*Demonstration of face recognition with multiple individuals in a single frame. Out of 3 people, 2 registered individuals are accurately identified, while the unregistered individual is correctly classified as "Unknown". This showcases the system’s ability to handle multi-person scenarios with high precision and no false positives.*
+
+![Face Challenging](assets/facev2.png)
+
+*Robust face recognition under challenging conditions including low lighting, motion blur, and partially closed eyes.*
+
+---
+
+## 🧠 System Architecture
+
+![Architecture](assets/arch.png)
+
+---
+
+## 🔄 Pipeline Flowcharts
+
+### Face Recognition Flow
+![Face Flow](assets/face_flow.png)
+
+### Gait Recognition Flow
+![Gait Flow](assets/gait_fkow.png)
+
 
 ---
 
