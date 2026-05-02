@@ -8,7 +8,7 @@
 ## 🚀 Project Summary
 
 A cutting-edge real-time biometric surveillance system that combines face and gait recognition for unparalleled identification accuracy in security applications. This AI-powered platform processes live CCTV feeds, fusing multiple biometric modalities to deliver robust person identification even under challenging conditions like occlusion or poor lighting.
-
+This project is also presented as 'Privacy-Aware Biometric Identification System for Secure Access Environments' in professional contexts.
 ---
 
 ## 🎯 Why This Project Matters
